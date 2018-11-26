@@ -12,4 +12,7 @@ class Song
   @genre.songs << self
  end 
  
- 
+ def self.all
+   @@all 
+ end 
+end 
