@@ -13,8 +13,8 @@ class Artist
     @@all 
   end 
   
-  def new_song(name)
-    @@all << name 
+  def new_song(name, genre)
+    
   end 
   
   def songs(name)
