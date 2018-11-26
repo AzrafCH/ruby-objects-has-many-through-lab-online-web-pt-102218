@@ -11,3 +11,10 @@ class Artist
     @@all 
   end 
   
+  def new_song(name)
+    @@all << name 
+  end 
+  
+  def songs(name)
+    
+  
