@@ -22,4 +22,5 @@ class Artist
   end 
   
   def genres
-   Song.all.map do |
+   Song.all.map do |song|
+     if song
